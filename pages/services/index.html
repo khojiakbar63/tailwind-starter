@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Waves</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Google fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- Favicon -->
+   <link rel="icon" href="../../public/Waves.svg">
+   <!-- Boxicons -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <style>
+      .clip-custom{
+         clip-path: polygon(100% 100%, 0% 100% , 0.00% 16.51%, 1.00% 17.29%, 2.00% 17.34%, 3.00% 16.65%, 4.00% 15.35%, 5.00% 13.69%, 6.00% 12.01%, 7.00% 10.63%, 8.00% 9.81%, 9.00% 9.73%, 10.00% 10.40%, 11.00% 11.68%, 12.00% 13.32%, 13.00% 15.01%, 14.00% 16.41%, 15.00% 17.25%, 16.00% 17.37%, 17.00% 16.73%, 18.00% 15.47%, 19.00% 13.84%, 20.00% 12.14%, 21.00% 10.72%, 22.00% 9.86%, 23.00% 9.71%, 24.00% 10.31%, 25.00% 11.55%, 26.00% 13.18%, 27.00% 14.87%, 28.00% 16.31%, 29.00% 17.21%, 30.00% 17.39%, 31.00% 16.81%, 32.00% 15.60%, 33.00% 13.98%, 34.00% 12.28%, 35.00% 10.83%, 36.00% 9.90%, 37.00% 9.69%, 38.00% 10.24%, 39.00% 11.43%, 40.00% 13.03%, 41.00% 14.74%, 42.00% 16.21%, 43.00% 17.16%, 44.00% 17.40%, 45.00% 16.89%, 46.00% 15.72%, 47.00% 14.13%, 48.00% 12.42%, 49.00% 10.93%, 50.00% 9.96%, 51.00% 9.68%, 52.00% 10.16%, 53.00% 11.31%, 54.00% 12.89%, 55.00% 14.60%, 56.00% 16.10%, 57.00% 17.10%, 58.00% 17.41%, 59.00% 16.96%, 60.00% 15.84%, 61.00% 14.27%, 62.00% 12.56%, 63.00% 11.04%, 64.00% 10.01%, 65.00% 9.67%, 66.00% 10.09%, 67.00% 11.19%, 68.00% 12.74%, 69.00% 14.46%, 70.00% 15.99%, 71.00% 17.04%, 72.00% 17.41%, 73.00% 17.02%, 74.00% 15.95%, 75.00% 14.41%, 76.00% 12.70%, 77.00% 11.15%, 78.00% 10.07%, 79.00% 9.67%, 80.00% 10.03%, 81.00% 11.07%, 82.00% 12.60%, 83.00% 14.31%, 84.00% 15.87%, 85.00% 16.98%, 86.00% 17.41%, 87.00% 17.09%, 88.00% 16.07%, 89.00% 14.55%, 90.00% 12.84%, 91.00% 11.27%, 92.00% 10.14%, 93.00% 9.68%, 94.00% 9.97%, 95.00% 10.96%, 96.00% 12.46%, 97.00% 14.17%, 98.00% 15.76%, 99.00% 16.91%, 100.00% 17.40%);
+      }
+   </style>
+</head>
+<body>
+   <header class="h-[92px] fixed top-0 left-0 right-0 z-[9999] bg-[#FFFFFF] border-b-2">
+      <div class="container mx-auto">
+         <nav class="flex items-center justify-around md:justify-between py-auto">
+            <img src="../../public/Waves.svg" class="w-[89px]" alt="logo">
+
+            <span class="flex md:hidden"><i class='bx bx-menu text-[32px]'></i></span>
+
+            <ul class="hidden md:flex items-center gap-[60px] h-[92px] text-base text-[#0F0F0F] ">
+               <li><a class="hover:text-[#8447E9]" href="../../index.html">Home</a></li>
+               <li><a class="hover:text-[#8447E9] duration-100" href="#">About us</a></li>
+               <li><a class="hover:text-[#8447E9] duration-100" href="#">Blog</a></li>
+               <li><a class="text-[#8447E9] duration-100" href="#">Services</a></li>
+            </ul>
+
+            <button class="bg-[#8447E9] border-2 border-[#8447E9] hover:border-[#8447E9] hover:bg-transparent duration-300  flex items-center hidden sm:flex text-white hover:text-[#8447E9] py-3 px-6">
+               <a target="_blank" href="../../pages/contacts/index.html">Contact us</a>
+               <p><i class='bx bx-right-arrow-alt text-white hover:text-[#8447E9] mt-2 ml-2'></i></p>
+            </button>
+
+         </nav>
+      </div>
+   </header>
+   <main>
+      <!-- intro start -->
+      <section id="intro" class="pt-[180px] p-[88px] bg-[#E1DBF6]">
+         <div class="container px-[182px] mx-auto">
+            <h3 class="text-[#8447E9] mb-10 font-semibold">OUR SERVICES</h3>
+            <h1 class="text-[#0F0F0F] font-medium text-[40px] max-w-[780px]">From proof of concepts and to complex systems of an enterprise-level – we’ve got everything covered.</h1>
+         </div>
+      </section>
+      <!-- intro end -->
+
+      <section id="services">
+
+         <div class="container px-[181px] mx-auto">
+
+            <!-- Strategy services -->
+            <div class="flex  justify-between py-[88px]">
+               <div class="flex flex-col justify-center">
+                  <h3 class="text-[#8447E9] text-[32px] mb-10">Strategy services</h3>
+                  <p class="w-[521px] mb-[30px] leading-[26px] tracking-[0.3px] text-[#0F0F0F] text-[20px] font-[300]">We fuel the growth of purpose driven brands through strategy activation, design empowerment, and market adoption. From cultivating new ideas to connecting the dots for customers or users, these are our core principles.</p>
+                  <div class="flex gap-6">
+                     <ul class="text-[#8447E9] font-medium font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Market and competitive research</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>CRM & sales funnel strategy</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Brand positioning & messaging</span>
+                        </a>
+
+                     </li>
+                     </ul>
+
+                     <ul class="text-[#8447E9] font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Automation</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>UX consulting</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Marketing strategy</span>
+                        </a>
+
+                     </li>
+                     </ul>
+                  </div>
+               </div>
+               <img src="../../assets/images/strategy.jpeg" alt="strategy">
+            </div>
+
+            <!-- Marketing services -->
+            <div class="flex gap-[65px] py-[88px]">
+
+               <img src="../../assets/images/marketing.jpeg" alt="marketing">
+
+               <div class="flex flex-col justify-center">
+                  <h3 class="text-[#8447E9] text-[32px] font-medium tracking-[1.5px] mb-10">Marketing services</h3>
+                  <p class="mb-[30px] font-light text-[20px]">Reality is a new reality. With a well-built digital strategy we leverage this stellar tech to propel your brand forward.</p>
+
+                  <div class="flex gap-6">
+                     <ul class="text-[#8447E9] font-medium font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Market and competitive research</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>CRM & sales funnel strategy</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Brand positioning & messaging</span>
+                        </a>
+
+                     </li>
+                     </ul>
+
+                     <ul class="text-[#8447E9] font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Automation</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>UX consulting</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Marketing strategy</span>
+                        </a>
+
+                     </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+
+            <!-- Design services -->
+            <div class="flex gap-[65px] py-[88px]">
+
+               <div class="flex flex-col justify-center">
+                  <h3 class="text-[#8447E9] text-[32px] font-medium tracking-[1.5px] mb-10">Design services</h3>
+                  <p class="mb-[30px] font-light text-[20px]">We design digital platforms to empower users and your brand's tribe. This deep understanding of what motivates them allows us to forge and fine-tune the most powerful strategies that generate rapid ROI for your business.</p>
+
+                  <div class="flex gap-6">
+                     <ul class="text-[#8447E9] font-medium font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>User testing & personas</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Wireframing and prototyping</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Website design</span>
+                        </a>
+
+                     </li>
+                     </ul>
+
+                     <ul class="text-[#8447E9] font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>UI/UX Design</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Graphic print design</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Animations</span>
+                        </a>
+
+                     </li>
+                     </ul>
+                  </div>
+               </div>
+
+               <img src="../../assets/images/design.jpeg" alt="design">
+
+            </div>
+
+
+            <!-- Development services -->
+            <div class="flex gap-[65px] py-[88px]">
+
+               <img src="../../assets/images/design.jpeg" alt="design">
+
+               <div class="flex flex-col justify-center">
+                  <h3 class="text-[#8447E9] text-[32px] font-medium tracking-[1.5px] mb-10">Development services</h3>
+                  <p class="mb-[30px] font-light text-[20px]">Together, we define, develop, and deliver different design solutions that create an unparalleled competitive advantage for Web3 companies in a sea of competition.</p>
+
+                  <div class="flex gap-6">
+                     <ul class="text-[#8447E9] font-medium font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Website maintenance and hosting</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Platform and data migration</span>
+                        </a>
+
+                     </ul>
+
+                     <ul class="text-[#8447E9] font-medium text-base flex flex-col gap-5">
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>Website building</span>
+                        </a>
+
+                        <li>
+                           <a class="flex gap-4" href="#">
+                           <img src="../../assets/icons/dash.svg" alt="dash">
+                           <span>CRM implementation</span>
+                        </a>
+
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+         </div>  <!-- container -->
+      </section>
+
+      <!-- ready start -->
+      <section id="ready" class="pt-[92px] pb-52 -mb-[450px] z-[999] relative">
+         <div class="container px-[185px] mx-auto">
+
+            <div class="bg-cover bg-center py-[101px] px-[224px] min-h-[285px] text-center" style="background-image:linear-gradient(rgba(0, 0, 0, 0.828), rgba(0, 0, 0, 0.4)), url('../../assets/images/ocean.jpeg') ">
+               
+               <h2 class="text-[62px] text-[#F5F5F5]">Ready for your project</h2>
+
+               <button class="border border-[1px] bg-[#8447e9] text-base hover:bg-transparent hover:text-[#8447E9] border-[#8447E9] py-5 px-[49px] text-[#F5F5F5]">Get in touch</button>
+            
+            </div>
+         </div>
+      </section>
+      <!-- ready end -->
+
+   </main>
+   <footer class="bg-[#0F0F0F] pt-[332px] pb-[87px] mb-[100px] z-0 clip-custom">
+      <div class="container px-[202px] mx-auto">
+         <div class="flex justify-between items-start">
+            <img class="w-[177px]" src="../../public/Waves.svg" alt="logo">
+
+            <div class="text-white flex flex-col gap-[60px]">
+               <ul class='list-none flex gap-[60px]'>
+                  <li><a class="text-[24px] font-normal hover:text-[#8447E9]" href="#">Home</a></li>
+                  <li><a class="text-[24px] font-normal hover:text-[#8447E9]" href="#">About us</a></li>
+                  <li><a class="text-[24px] font-normal hover:text-[#8447E9]" href="#">Blog</a></li>
+                  <li><a class="text-[24px] font-normal hover:text-[#8447E9]" href="#">Services</a></li>
+               </ul>
+               <ul class="flex gap-6 mb-[141px]">
+                  <li><a href="#"><img src="../../assets/icons/Facebook.svg" alt="facebook"></a></li>
+                  <li><a href="#"><img src="../../assets/icons/twitter.svg" alt="twitter"></a></li>
+                  <li><a href="#"><img src="../../assets/icons/Instagram.svg" alt="instagram"></a></li>
+                  <li><a href="#"><img src="../../assets/icons/LinkedIn.svg" alt="linkedin"></a></li>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="container-fluid px-[87px] mx-auto">
+         <div class="border-b-[1px]"></div>
+      </div>
+
+   </footer>
+</body> 
+</html>
