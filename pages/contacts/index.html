@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Waves | Contacts</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Google fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- Favicon -->
+   <link rel="icon" href="../../public/Waves.svg">
+   <!-- Boxicons -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <style>
+      .clip-custom{
+         clip-path: polygon(100% 100%, 0% 100% , 0.00% 16.51%, 1.00% 17.29%, 2.00% 17.34%, 3.00% 16.65%, 4.00% 15.35%, 5.00% 13.69%, 6.00% 12.01%, 7.00% 10.63%, 8.00% 9.81%, 9.00% 9.73%, 10.00% 10.40%, 11.00% 11.68%, 12.00% 13.32%, 13.00% 15.01%, 14.00% 16.41%, 15.00% 17.25%, 16.00% 17.37%, 17.00% 16.73%, 18.00% 15.47%, 19.00% 13.84%, 20.00% 12.14%, 21.00% 10.72%, 22.00% 9.86%, 23.00% 9.71%, 24.00% 10.31%, 25.00% 11.55%, 26.00% 13.18%, 27.00% 14.87%, 28.00% 16.31%, 29.00% 17.21%, 30.00% 17.39%, 31.00% 16.81%, 32.00% 15.60%, 33.00% 13.98%, 34.00% 12.28%, 35.00% 10.83%, 36.00% 9.90%, 37.00% 9.69%, 38.00% 10.24%, 39.00% 11.43%, 40.00% 13.03%, 41.00% 14.74%, 42.00% 16.21%, 43.00% 17.16%, 44.00% 17.40%, 45.00% 16.89%, 46.00% 15.72%, 47.00% 14.13%, 48.00% 12.42%, 49.00% 10.93%, 50.00% 9.96%, 51.00% 9.68%, 52.00% 10.16%, 53.00% 11.31%, 54.00% 12.89%, 55.00% 14.60%, 56.00% 16.10%, 57.00% 17.10%, 58.00% 17.41%, 59.00% 16.96%, 60.00% 15.84%, 61.00% 14.27%, 62.00% 12.56%, 63.00% 11.04%, 64.00% 10.01%, 65.00% 9.67%, 66.00% 10.09%, 67.00% 11.19%, 68.00% 12.74%, 69.00% 14.46%, 70.00% 15.99%, 71.00% 17.04%, 72.00% 17.41%, 73.00% 17.02%, 74.00% 15.95%, 75.00% 14.41%, 76.00% 12.70%, 77.00% 11.15%, 78.00% 10.07%, 79.00% 9.67%, 80.00% 10.03%, 81.00% 11.07%, 82.00% 12.60%, 83.00% 14.31%, 84.00% 15.87%, 85.00% 16.98%, 86.00% 17.41%, 87.00% 17.09%, 88.00% 16.07%, 89.00% 14.55%, 90.00% 12.84%, 91.00% 11.27%, 92.00% 10.14%, 93.00% 9.68%, 94.00% 9.97%, 95.00% 10.96%, 96.00% 12.46%, 97.00% 14.17%, 98.00% 15.76%, 99.00% 16.91%, 100.00% 17.40%);
+      }
+   </style>
+</head>
+<body>
+   <header class="h-[92px] fixed top-0 left-0 right-0 z-[9999] bg-[#FFFFFF]">
+      <div class="container px-5 mx-auto">
+         <nav class="h-[92px] flex items-center justify-around md:justify-between ">
+            <img src="../../public/Waves.svg" class="w-[89px]" alt="logo">
+
+            <span class="flex md:hidden"><i class='bx bx-menu text-[32px]'></i></span>
+
+            <ul class="hidden md:flex items-center gap-[20px] lg:gap-[60px] h-[92px] text-base text-[#0F0F0F] ">
+               <li><a class="text-[#8447E9] hover:bg-slate-100 py-3 px-3" href="../../index.html">Home</a></li>
+               <li><a class="hover:text-[#8447E9] duration-100 hover:bg-slate-100 py-3 px-3" href="../../pages/services/index.html">About us</a></li>
+               <li><a class="hover:text-[#8447E9] duration-100 hover:bg-slate-100 py-3 px-3" href="../../pages/services/">Blog</a></li>
+               <li><a class="hover:text-[#8447E9] duration-100 hover:bg-slate-100 py-3 px-3" href="../../pages/services/index.html">Services</a></li>
+            </ul>
+
+            <button class="bg-[#8447E9] border-2 border-[#8447E9] hover:border-[#8447E9] hover:bg-transparent duration-300  flex items-center hidden md:flex text-white hover:text-[#8447E9] py-3 px-6">
+               <a href="../../pages/contacts/index.html">Contact us</a>
+               <p><i class='bx bx-right-arrow-alt text-white hover:text-[#8447E9] mt-2 ml-2'></i></p>
+            </button>
+
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <!-- intro start -->
+      <section id="intro" class="pt-[180px] bg-white">
+         <div class="container px-5 md:px-[50px] lg:px-[80px]  xl:px-[182px] mx-auto">
+           <h1 class="text-[#0F0F0F] font-normal lg:font-medium text-[50px] lg:text-[62px] mb-10">Interested?
+            Let’s talk!</h1>
+            <p class="text-black font-normal text-[24px] w-[400px] lg:w-[650px] leading-[29px] mb-20">Just fill this form and we will contact you promptly to discuss your project. Hate forms? Drop us a message at 
+               <a class="text-[#8447E9] font-light hover:bg-slate-200 " href="#">info@waves.com or hello@waves.com</a></p>
+
+            <div class="mb-[88px]">
+
+               <input type="text" placeholder="Your Name" class="border-b-2 w-[400px] lg:w-[519px] py-[18px] font-light text-[24px] placeholder:text-[#5A5A5A]  outline-0 duration-300 hover:translate-x-4">
+
+               <br>
+
+               <input type="email" placeholder="Your Email" class="border-b-2 w-[400px] lg:w-[519px] py-[18px] font-light text-[24px] placeholder:text-[#5A5A5A] outline-0 duration-300 hover:translate-x-4">
+
+               <br>
+
+               <input type="text" placeholder="Tell Us About Your Project" class="border-b-2 w-[400px] lg:w-[519px] py-[18px] font-light text-[24px] placeholder:text-[#5A5A5A] outline-0 duration-300 hover:translate-x-4">
+
+               <br>
+
+               <label for="add" class="flex gap-6 mt-7 duration-300 hover:translate-x-4">
+                  <img src="../../assets/icons/add.svg" alt="add">
+                  <div>
+                     <input type="text" id="add" placeholder="Add Attachment" class="w-[350px] xl:w-[519px] py-[18px] font-light text-[24px] placeholder:text-[#5A5A5A] placeholder:tracking-wide outline-0">
+                     <img class="w-[172px]" src="../../assets/icons/add-wave.svg" alt="wave">
+                  </div>
+                  
+               </label>
+            
+
+            </div>
+
+            <button class="py-5 px-[32px] bg-[#8447E9] text-white text-base flex items-center gap-2 hover:bg-transparent
+             hover:text-[#8447E9] border-2 border-[#8447E9] duration-300">Send Request
+               <i class='bx bx-right-arrow-alt'></i>
+            </button>
+         </div>
+      </section>
+      <!-- intro end -->
+
+
+
+      <!-- ready start -->
+      <section id="ready" class="pt-[92px] pb-52 -mb-[450px] z-[999] relative ">
+         <div class="container pb-[200px] px-5 md:px-10 lg:[185px] mx-auto">
+
+            <div class="flex flex-col justify-center items-center bg-cover bg-center py-[10px] px-[24px] lg:py-[50px] -mb-[200px] min-h-[285px] text-center hover:translate-y-7 duration-300" style="background-image:linear-gradient(rgba(0, 0, 0, 0.828), rgba(0, 0, 0, 0.4)), url('../../assets/images/ocean.jpeg') ">
+               
+               <h2 class="mb-3 text-[30px] text-[#F5F5F5] md:text-[35px]">Ready for your project</h2>
+
+               <button class="border border-[1px] bg-[#8447e9] text-base hover:bg-transparent hover:text-[#8447E9] border-[#8447E9] py-5 px-[49px] text-[#F5F5F5]">Get in touch</button>
+            
+            </div>
+         </div>
+      </section>
+      <!-- ready end -->
+
+   </main>
+   <footer class="bg-[#0F0F0F] pt-[332px] pb-[87px] mb-[100px] z-0 clip-custom">
+      <div class="container px-5 md:px-10 lg:px-[100px] mx-auto mb-5">
+         <div class="gap-5 flex flex-col lg:flex-row justify-between items-start">
+            <img class="w-[177px]" src="../../public/Waves.svg" alt="logo">
+
+            <div class="text-white flex justify-between md:flex-col gap-[150px] ">
+               <ul class='list-none flex flex-col gap-[20px] lg:mt-5 lg:flex-row'>
+                  <li class="text-[24px] font-light cursor-pointer hover:bg-indigo-400"><a href="#">Home</a></li>
+                  <li class="text-[24px] font-light cursor-pointer"><a href="../../pages/services/index.html">About_us</a></li>
+                  <li class="text-[24px] font-light cursor-pointer"><a href="../../pages/services/index.html">Blog</a></li>
+                  <li class="text-[24px] font-light cursor-pointer"><a href="../../pages/services/index.html">Services</a></li>
+               </ul>
+               <ul class="flex flex-col justify-between gap-7 mb-[141px]">
+                  <a href="../../pages/contacts/index.html"><img class="cursor-pointer scale-105" src="../../assets/icons/Facebook.svg" alt="facebook"></a>
+                  <a href="../../pages/contacts/index.html"><img class="cursor-pointer scale-105" src="../../assets/icons/twitter.svg" alt="twitter"></a>
+                  <a href="../../pages/contacts/index.html"><img class="cursor-pointer scale-105" src="../../assets/icons/Instagram.svg" alt="instagram"></a>
+                  <a href="../../pages/contacts/index.html"><img class="cursor-pointer scale-105" src="../../assets/icons/LinkedIn.svg" alt="linkedin"></a>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="container-fluid px-5 md:px-[87px] mx-auto">
+         <div class="border-b-[1px]"></div>
+      </div>
+
+   </footer>
+</body> 
+</html>
